@@ -2,6 +2,8 @@
 
 This Terraform project aims to create a VPC with a 3-tier architecture on AWS. The architecture consists of a public subnet containing a bastion EC2 instance, a private subnet where ec2 instances will be launch using launch templates with autoscaling, an Apache server installed in the ec2 instances launched. An index.html file along with a metadata  will be displayed for the EC2 instances.
 
+![05-terraform](https://github.com/Enoch-Gonzalez/images/blob/main/05-terraform.png)
+
 ## Prerequisites
 
 - AWS Account: You need an active AWS account.
